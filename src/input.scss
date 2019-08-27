@@ -7,6 +7,11 @@ $turquoiseColor: #00a69c;
   justify-content: $property;
 }
 
+@mixin square($property) {
+  width: $property;
+  height: $property;
+}
+
 @mixin bottomIndent($property) {
   margin-bottom: $property;
 }

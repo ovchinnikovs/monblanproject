@@ -4,7 +4,10 @@
   "description": "Grid training",
   "main": "src/main.js",
   "scripts": {
+    "css:test": "rimraf ./backstop_data/bitmaps_test && backstop test --config=config/backstop/backstopConfig",
+    "css:reference": "rimraf ./backstop_data/bitmaps_reference && backstop reference --config=config/backstop/backstopConfig",
     "deploy": "bash ./config/hooks/deploy.sh",
+    "lint": "stylelint src/**/*.css && eslint src/**/*.js && htmllint --rc ./node_modules/@mate-academy/htmllint-config/.htmllintrc src/*.html",
     "start": "http-server ./src -p 8080 -c-1"
   },
   "keywords": [],

@@ -1,0 +1,321 @@
+
+
+@media only screen and (max-width: 991px) {
+
+  .header-content__item:first-child {
+    margin: 0 25px;
+  }
+
+  .main-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-content__item {
+    height: 352px;
+  }
+
+  .text-bottom {
+    left: 23%;
+  }
+
+  .st-text {
+    width: 186px;
+  }
+
+  .main-content {
+    grid-gap: 4px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .statistics__item {
+    margin-bottom: 10px;
+  }
+  
+  .text-bottom {
+    bottom: 1%;
+    left: 15%;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  
+  .container {
+    padding: 0;
+  }
+
+  .header-content {
+    flex-wrap: wrap;
+  }
+
+  .header-content__item:nth-child(2) {
+    margin: 18px 40px 0;
+  }
+  .stats {
+    display: none;
+  }
+
+  .header-link {
+    display: none;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .title {
+    margin-bottom: 15px;
+  }
+
+  .stats-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background: #e6e6e6;
+  }
+
+  .stats-mobile__item {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .stats-mobile__item span {
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .stats-mobile__item:nth-child(2):active,
+  .stats-mobile__item:nth-child(3):active {
+    opacity: 0.4;
+  }
+
+  .main-content {
+    margin: 0;
+  }
+
+  .box-button {
+    padding: 45px 0 45px;
+}
+}
+
+.header-content__item:first-child {
+  height: 115px;
+}
+
+@media only screen and (max-width: 686px) {
+
+  .header-content__item:nth-child(2) {
+    margin: 18px 10px 0;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+
+  .header-content__item:nth-child(2) {
+    width: 400px;
+}
+}
+
+@media only screen and (max-width: 590px) {
+
+  .logo {
+    width: 95px;
+    height: 95px;
+  }
+
+  .header-content__item:nth-child(2) {
+    margin: 20px 10px 0;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .title {
+    align-items: center;
+  }
+
+  .start-date-btn {
+    width: 126px;
+    margin-left: 10px;
+    font-size: 11px;
+  }
+
+  label {
+    display: none;
+  }
+
+  .main-content {
+    grid-template-columns:  1fr;
+  }
+
+  .text-bottom {
+    left: 36%;
+  }
+
+  .st-text {
+    width: 350px;
+  }
+  
+  .col-xs-6 {
+    padding-left: 0;
+    width: 50%;
+  }
+
+  .header-content__item:nth-child(2) {
+    width: 282px;
+    height: 85px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+
+  .st-text {
+    width: 315px;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+
+  .header-content__item:first-child {
+    margin: 0 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  
+  .st-text {
+    width: 270px;
+  }
+
+  .text-bottom {
+    left: 30%;
+  }
+
+  .start-date-btn {
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+
+  .logo {
+    width: 94px;
+    height: 94px;
+    margin-top: 10px;
+  }
+
+  .header-content__item:first-child {
+    height: 105px;
+    margin: 0px 5px;
+  }
+
+  .header-content__item:first-child {
+    margin: 0 10px;
+  }
+
+  .header-content__item:nth-child(2) {
+    width: 274px;
+  }
+
+  h1 {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 424px) {
+
+  .header-content__item:first-child {
+    height: 52px;
+}
+
+  .logo {
+    width: 115px;
+    height: 50px;
+    margin-top: 8px;
+  }
+
+  .start-date-btn {
+    line-height: 22px;
+    width: 135px;
+    margin-left: 25px;
+    font-size: 11px;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .header-content__item:nth-child(2) {
+    height: 74px;
+    width: 300px;
+    margin: 0 10px;
+  }
+  
+  .st-text {
+    width: 205px;
+  }
+
+  .text-bottom {
+    left: 28%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .statistics {
+    top: 68%;
+  }
+
+  .st-text {
+    width: 180px;
+  }
+}
+
+
+@media only screen and (max-width: 340px) {
+
+  .start-date-btn {
+    margin-left: 8px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  .start-date-btn {
+    margin-left: 25px;
+  }
+
+  .st-text {
+    width: 150px;
+  }
+
+  .text-bottom {
+    left: 25%;
+  }
+
+  .header-content__item:nth-child(2) {
+    margin: 8px 10px 0;
+  }
+
+  .header-content__item:first-child {
+    height: 55px;
+    margin: 0 35px;
+  }
+
+  .logo {
+    margin-top: 15px;
+    width: 60px;
+    height: 45px;
+  }
+}
+
+

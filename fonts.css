@@ -1,0 +1,7 @@
+
+@font-face {
+  font-family: "AvenirNextCyr-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("AvenirNextCyr-Regular"), url("./fonts/AvenirNextCyr-Regular.woff") format("woff");
+}

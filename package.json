@@ -14,12 +14,35 @@
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "devDependencies": {
+    "@mate-academy/eslint-config": "*",
+    "@mate-academy/htmllint-config": "*",
+    "@mate-academy/stylelint-config": "*",
+    "backstopjs": "^4.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "htmllint": "^0.7.3",
+    "htmllint-cli": "0.0.7",
     "http-server": "^0.11.1",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "stylelint": "^10.0.0"
   },
   "lint-staged": {
+    "linters": {
+      "*.css": [
+        "stylelint",
+        "git add"
+      ],
+      "*.js": [
+        "eslint",
+        "git add"
+      ],
+      "*.html": [
+        "htmllint --rc  ./node_modules/@mate-academy/htmllint-config/.htmllintrc",
+        "git add"
+      ]
+    },
     "ignore": [
       "**/backstop_data/**",
       "**/report/**"
@@ -30,8 +53,5 @@
       "post-commit": "git update-index --again",
       "pre-commit": "lint-staged"
     }
-  },
-  "dependencies": {
-    "gh-pages": "^2.1.1"
   }
 }

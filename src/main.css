@@ -123,19 +123,6 @@ header {
   align-items: center;
 }
 
-.header-link {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  font-size: 13px;
-  color: #4090db;
-  line-height: 17px;
-}
-
-.header-link:active {
-  opacity: 0.5;
-}
-
 .stats-mobile {
   display: none;
 }

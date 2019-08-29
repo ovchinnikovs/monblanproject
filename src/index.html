@@ -1,389 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="./bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css" rel="stylesheet" id="bootstrap-css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css"
+    rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="./fonts.css">
   <link rel="stylesheet" href="./main.css">
   <link rel="stylesheet" href="./media.css">
 
   <title>monblanproject</title>
 </head>
+
 <body>
-
-<header class="header">
-  <div class="header-content container">
-    <div class="header-content__item">
-      <a class="logo" href="#">
-        <img src="./images/logo.png" alt="LOGO">
-      </a>
-    </div>
-
-    <div class="header-content__item">
-      <div class="title">
-        <h1>monblanproject</h1>
-        <button class="start-date-btn" href="#">Start on 17-02-2016</button>
+  <header class="header">
+    <div class="header-content container">
+      <div class="header-content__item">
+        <a class="logo" href="javascript:void(0)">
+          <img src="./images/logo.png" alt="LOGO">
+        </a>
       </div>
 
-      <div class="stats">
-        <div class="stats__item">
-          <span>870</span>  posts
+      <div class="header-content__item">
+        <div class="title">
+          <h1>monblanproject</h1>
+          <button class="start-date-btn" href="javascript:void(0)">Start on 17-02-2016</button>
         </div>
-        <a class="stats__item" href="#">
-          <span>11,787</span> followers
-        </a>
-        <a class="stats__item" href="#">
-          <span>112</span>  following
-        </a>
+
+        <div class="stats">
+          <div class="stats__item">
+            <span>870</span> posts
+          </div>
+          <a class="stats__item" href="javascript:void(0)">
+            <span>11,787</span> followers
+          </a>
+          <a class="stats__item" href="javascript:void(0)">
+            <span>112</span> following
+          </a>
+        </div>
+
+        <div class="form">
+          <label>Date</label>
+          <div class="row">
+            <div class='col-lg-6 col-md-6 col-sm-6 col-xs-6'>
+              <div class="form-group">
+                <div class='input-group date' id='datepicker'>
+                  <input type='text' class="form-control" placeholder="from" />
+                  <span class="input-group-addon">
+                    <i class="fa-2x fas fa-calendar-alt"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class='col-lg-6 col-md-6 col-sm-6 col-xs-6 pr'>
+              <div class="form-group">
+                <div class='input-group date' id='datepicker2'>
+                  <input type='text' class="form-control" placeholder="before" />
+                  <span class="input-group-addon">
+                    <i class="fa-2x fas fa-calendar-alt"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="form">
-        <label>Date</label>
-        <div class="row">
-          <div class='col-lg-6 col-md-6 col-sm-6 col-xs-6'>
-            <div class="form-group">
-              <div class='input-group date' id='datepicker'>
-                <input type='text' class="form-control" placeholder="from" />
-                <span class="input-group-addon">
-                  <i class="fas fa-calendar-alt"></i>
+      <div class="stats-mobile">
+        <div class="stats-mobile__item">
+          <span>870</span><br> posts
+        </div>
+        <a class="stats-mobile__item" href="javascript:void(0)">
+          <span>11,787</span><br> followers
+        </a>
+        <a class="stats-mobile__item" href="javascript:void(0)">
+          <span>112</span><br> following
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="main-content container">
+      <a href="javascript:void(0)" class="main-content__item">
+        <img class="content-image" src="./images/816.jpg" alt="No photo description">
+        <div class="box-statistics">
+          <div class="statistics">
+            <div class="statistics__item">
+              <div class="days">
+                <span>Today</span><br>
+                <span>9-08-2016</span>
+              </div>
+
+              <div class="likes">
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 128
+                </span><br>
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 67
                 </span>
+              </div>
+
+              <div class="comments">
+                <spa>
+                  <i class="fa-2x fas fa-comment-alt"></i> 31
+                  </span><br>
+                  <span>
+                    <i class="fa-2x fas fa-comment-alt"></i> 22
+                  </span>
               </div>
             </div>
           </div>
 
-          <div class='col-lg-6 col-md-6 col-sm-6 col-xs-6 pr'>
-            <div class="form-group">
-              <div class='input-group date' id='datepicker2'>
-                <input type='text' class="form-control" placeholder="before" />
-                <span class="input-group-addon">
-                  <i class="fas fa-calendar-alt"></i>
+          <div class="text-bottom">Image upload: 11-04-2016</div>
+        </div>
+      </a>
+      <a href="javascript:void(0)" class="main-content__item">
+        <img class="content-image" src="./images/803.jpg" alt="No photo description">
+        <div class="box-statistics">
+          <div class="statistics">
+            <div class="statistics__item">
+              <div class="days">
+                <span>Today</span><br>
+                <span>9-08-2016</span>
+              </div>
+
+              <div class="likes">
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 128
+                </span><br>
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 67
                 </span>
+              </div>
+
+              <div class="comments">
+                <spa>
+                  <i class="fa-2x fas fa-comment-alt"></i> 31
+                  </span><br>
+                  <span>
+                    <i class="fa-2x fas fa-comment-alt"></i> 22
+                  </span>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="stats-mobile">
-      <div class="stats-mobile__item">
-        <span>870</span><br> posts
-      </div>
-      <a class="stats-mobile__item" href="#">
-        <span>11,787</span><br> followers
+          <div class="text-bottom">Image upload: 11-04-2016</div>
+        </div>
       </a>
-      <a class="stats-mobile__item" href="#">
-        <span>112</span><br> following
+      <a href="javascript:void(0)" class="main-content__item">
+        <img class="content-image" src="./images/804.jpg" alt="No photo description">
+        <div class="box-statistics">
+          <div class="statistics">
+            <div class="statistics__item">
+              <div class="days">
+                <span>Today</span><br>
+                <span>9-08-2016</span>
+              </div>
+
+              <div class="likes">
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 128
+                </span><br>
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 67
+                </span>
+              </div>
+
+              <div class="comments">
+                <spa>
+                  <i class="fa-2x fas fa-comment-alt"></i> 31
+                  </span><br>
+                  <span>
+                    <i class="fa-2x fas fa-comment-alt"></i> 22
+                  </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-bottom">Image upload: 11-04-2016</div>
+        </div>
       </a>
-    </div>
-  </div>
-</header>
+      <a href="javascript:void(0)" class="main-content__item">
+        <img class="content-image" src="./images/817.jpg" alt="No photo description">
+        <div class="box-statistics">
+          <div class="statistics">
+            <div class="statistics__item">
+              <div class="days">
+                <span>Today</span><br>
+                <span>9-08-2016</span>
+              </div>
 
-<main class="main">
-  <section class="main-content container">
-    <div class="main-content__item main-content__item_image-1 ">
-      <div class="box-statistics">
-        <div class="statistics">
-          <div class="statistics__item">
-            <span class="st-text">Today</span>
-      
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  128
-            </span>
-      
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  31
-            </span>
+              <div class="likes">
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 128
+                </span><br>
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 67
+                </span>
+              </div>
+
+              <div class="comments">
+                <spa>
+                  <i class="fa-2x fas fa-comment-alt"></i> 31
+                  </span><br>
+                  <span>
+                    <i class="fa-2x fas fa-comment-alt"></i> 22
+                  </span>
+              </div>
+            </div>
           </div>
-      
-          <div class="statistics__item">
-            <span class="st-text">9-08-2016</span>
-      
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  67
-            </span>
-      
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  22
-            </span>
-          </div>
+
+          <div class="text-bottom">Image upload: 11-04-2016</div>
         </div>
+      </a>
+      <a href="javascript:void(0)" class="main-content__item">
+        <img class="content-image" src="./images/801.jpg" alt="No photo description">
+        <div class="box-statistics">
+          <div class="statistics">
+            <div class="statistics__item">
+              <div class="days">
+                <span>Today</span><br>
+                <span>9-08-2016</span>
+              </div>
 
-        <span class="text-bottom">Image upload: 11-04-2016</span>
-      </div>
-    </div>
+              <div class="likes">
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 128
+                </span><br>
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 67
+                </span>
+              </div>
 
-    <div class="main-content__item main-content__item_image-2 ">
-      <div class="box-statistics">
-        <div class="statistics">
-          <div class="statistics__item">
-            <span class="st-text">Today</span>
-        
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  12,800
-            </span>
-        
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  3,100
-            </span>
+              <div class="comments">
+                <spa>
+                  <i class="fa-2x fas fa-comment-alt"></i> 31
+                  </span><br>
+                  <span>
+                    <i class="fa-2x fas fa-comment-alt"></i> 22
+                  </span>
+              </div>
+            </div>
           </div>
-        
-          <div class="statistics__item">
-            <span class="st-text">9-08-2016</span>
-        
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  67
-            </span>
-        
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  22
-            </span>
-          </div>
+
+          <div class="text-bottom">Image upload: 11-04-2016</div>
         </div>
-  
-        <span class="text-bottom">Image upload: 11-04-2016</span>
-      </div>
-    </div>
+      </a>
+      <a href="javascript:void(0)" class="main-content__item">
+        <img class="content-image" src="./images/802.jpg" alt="No photo description">
+        <div class="box-statistics">
+          <div class="statistics">
+            <div class="statistics__item">
+              <div class="days">
+                <span>Today</span><br>
+                <span>9-08-2016</span>
+              </div>
 
-    <div class="main-content__item main-content__item_image-3">
-      <div class="box-statistics">
-        <div class="statistics">
-          <div class="statistics__item">
-            <span class="st-text">Today</span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  128
-            </span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  31
-            </span>
-          </div>
-          
-          <div class="statistics__item">
-            <span class="st-text">9-08-2016</span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  67
-            </span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  22
-            </span>
-          </div>
-        </div>
-    
-        <span class="text-bottom">Image upload: 11-04-2016</span>
-      </div>
-    </div>
+              <div class="likes">
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 128
+                </span><br>
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 67
+                </span>
+              </div>
 
-    <div class="main-content__item main-content__item_image-4">
-      <div class="box-statistics">
-        <div class="statistics">
-          <div class="statistics__item">
-            <span class="st-text">Today</span>
-        
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  128
-            </span>
-        
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  31
-            </span>
+              <div class="comments">
+                <spa>
+                  <i class="fa-2x fas fa-comment-alt"></i> 31
+                  </span><br>
+                  <span>
+                    <i class="fa-2x fas fa-comment-alt"></i> 22
+                  </span>
+              </div>
+            </div>
           </div>
-        
-          <div class="statistics__item">
-            <span class="st-text">9-08-2016</span>
-        
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  67
-            </span>
-        
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  22
-            </span>
-          </div>
-        </div>
-  
-        <span class="text-bottom">Image upload: 11-04-2016</span>
-      </div>
-    </div>
-    
-    <div class="main-content__item main-content__item_image-5">
-      <div class="box-statistics">
-        <div class="statistics">
-          <div class="statistics__item">
-            <span class="st-text">Today</span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  2,600
-            </span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  78
-            </span>
-          </div>
-          
-          <div class="statistics__item">
-            <span class="st-text">9-08-2016</span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  1,345
-            </span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  8
-            </span>
-          </div>
-        </div>
-    
-        <span class="text-bottom">Image upload: 11-04-2016</span>
-      </div>
-    </div>
 
-    <div class="main-content__item main-content__item_image-6">
-      <div class="box-statistics">
-        <div class="statistics">
-          <div class="statistics__item">
-            <span class="st-text">Today</span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  915
-            </span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i> 45
-            </span>
-          </div>
-            
-          <div class="statistics__item">
-            <span class="st-text">9-08-2016</span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  786
-            </span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  30
-            </span>
-          </div>
+          <div class="text-bottom">Image upload: 11-04-2016</div>
         </div>
-      
-        <span class="text-bottom">Image upload: 11-04-2016</span>
-      </div>
-    </div>
+      </a>
+      <a href="javascript:void(0)" class="main-content__item">
+        <img class="content-image" src="./images/image.jpg" alt="No photo description">
+        <div class="box-statistics">
+          <div class="statistics">
+            <div class="statistics__item">
+              <div class="days">
+                <span>Today</span><br>
+                <span>9-08-2016</span>
+              </div>
 
-    <div class="main-content__item main-content__item_image-7">
-      <div class="box-statistics">
-        <div class="statistics">
-          <div class="statistics__item">
-            <span class="st-text">Today</span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  39
-            </span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  2
-            </span>
+              <div class="likes">
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 128
+                </span><br>
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 67
+                </span>
+              </div>
+
+              <div class="comments">
+                <spa>
+                  <i class="fa-2x fas fa-comment-alt"></i> 31
+                  </span><br>
+                  <span>
+                    <i class="fa-2x fas fa-comment-alt"></i> 22
+                  </span>
+              </div>
+            </div>
           </div>
-            
-          <div class="statistics__item">
-            <span class="st-text">9-08-2016</span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  24
-            </span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  0
-            </span>
-          </div>
+
+          <div class="text-bottom">Image upload: 11-04-2016</div>
         </div>
-      
-        <span class="text-bottom">Image upload: 11-04-2016</span>
-      </div>
-    </div>
+      </a>
+      <a href="javascript:void(0)" class="main-content__item">
+        <img class="content-image" src="./images/806.jpg" alt="No photo description">
+        <div class="box-statistics">
+          <div class="statistics">
+            <div class="statistics__item">
+              <div class="days">
+                <span>Today</span><br>
+                <span>9-08-2016</span>
+              </div>
 
-    <div class="main-content__item main-content__item_image-8">
-      <div class="box-statistics">
-        <div class="statistics">
-          <div class="statistics__item">
-            <span class="st-text">Today</span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  7,500
-            </span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  798
-            </span>
+              <div class="likes">
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 128
+                </span><br>
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 67
+                </span>
+              </div>
+
+              <div class="comments">
+                <spa>
+                  <i class="fa-2x fas fa-comment-alt"></i> 31
+                  </span><br>
+                  <span>
+                    <i class="fa-2x fas fa-comment-alt"></i> 22
+                  </span>
+              </div>
+            </div>
           </div>
-          
-          <div class="statistics__item">
-            <span class="st-text">9-08-2016</span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  6,798
-            </span>
-          
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i> 467
-            </span>
-          </div>
+
+          <div class="text-bottom">Image upload: 11-04-2016</div>
         </div>
-    
-        <span class="text-bottom">Image upload: 11-04-2016</span>
-      </div>
-    </div>
-    
-    <div class="main-content__item main-content__item_image-9">
-      <div class="box-statistics">
-        <div class="statistics">
-          <div class="statistics__item">
-            <span class="st-text">Today</span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  128
-            </span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  31
-            </span>
+      </a>
+      <a href="javascript:void(0)" class="main-content__item">
+        <img class="content-image" src="./images/815.jpg" alt="No photo description">
+        <div class="box-statistics">
+          <div class="statistics">
+            <div class="statistics__item">
+              <div class="days">
+                <span>Today</span><br>
+                <span>9-08-2016</span>
+              </div>
+
+              <div class="likes">
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 128
+                </span><br>
+                <span>
+                  <i class="fa-2x fas fa-heart"></i> 67
+                </span>
+              </div>
+
+              <div class="comments">
+                <spa>
+                  <i class="fa-2x fas fa-comment-alt"></i> 31
+                  </span><br>
+                  <span>
+                    <i class="fa-2x fas fa-comment-alt"></i> 22
+                  </span>
+              </div>
+            </div>
           </div>
-            
-          <div class="statistics__item">
-            <span class="st-text">9-08-2016</span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-heart"></i>  67
-            </span>
-            
-            <span class="st-numbers">
-              <i class="fas fa-comment-alt"></i>  22
-            </span>
-          </div>
+
+          <div class="text-bottom">Image upload: 11-04-2016</div>
         </div>
-      
-        <span class="text-bottom">Image upload: 11-04-2016</span>
+      </a>
+    </section>
+
+    <section class="container">
+      <div class="box-button">
+        <button class="download-button">load more</button>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <section class="container">
-    <div class="box-button">
-      <button class="download-button">load more</button>
-    </div>
-  </section>
-</main>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
-<script src="./main.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+  <script src="./main.js"></script>
 </body>
+
 </html>

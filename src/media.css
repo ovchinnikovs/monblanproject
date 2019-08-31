@@ -14,15 +14,11 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .box-statistics {
+  .content {
     visibility: visible;
   }
 
-  .statistics__item {
-    top: 85px;
-  }
-
-  .statistics__item span {
+  .statistics span {
     font-size: 14px;
   }
 
@@ -106,17 +102,13 @@
     margin: 0 45px;
   }
 
-  .statistics__item {
-    top: 100px;
-  }
-
-  .statistics__item span {
+  .statistics span {
     font-size: 12px;
     line-height: 25px;
   }
 
   .likes {
-    padding-left: 0px;
+    padding-left: 45px;
   }
 }
 
@@ -130,20 +122,19 @@
     margin: 18px 10px 0;
   }
 
-  .statistics__item {
-    top: 90px;
-  }
-
-  .statistics__item span {
+  .statistics span {
     line-height: 24px;
   }
+
+  .likes {
+    padding-left: 35px;
+}
 }
 
 @media only screen and (max-width: 630px) {
 
-  .statistics__item {
-    top: 80px;
-    padding: 0;
+  .statistics {
+    padding: 10px;
   }
 
   .header-content__item:first-child {
@@ -199,12 +190,12 @@
     width: 50%;
   }
 
-  .statistics__item {
-    top: 105px;
-    padding: 0 10px;
+  .statistics {
+    padding: 0 15px;
   }
 
-  .statistics__item span {
+  .statistics span {
+    font-size: 16px;
     line-height: 33px;
   }
 
@@ -219,12 +210,12 @@
     margin: 0px 36px;
   }
 
-  .statistics__item {
-    top: 90px;
-  }
-
   .likes {
     padding-left: 25px;
+  }
+
+  .statistics span {
+    font-size: 14px;
   }
 }
 
@@ -246,11 +237,11 @@
     grid-template-columns: 1fr;
   }
 
-  .statistics__item {
-    top: 185px;
+  .statistics {
+    padding: 0 20px;
   }
 
-  .statistics__item span {
+  .statistics span {
     line-height: 37px;
     font-size: 16px;
   }
@@ -280,10 +271,6 @@
 
   h1 {
     font-size: 19px;
-  }
-
-  .statistics__item {
-    top: 170px;
   }
 
   .likes {
@@ -333,16 +320,12 @@
     padding-right: 0;
   }
 
-  .statistics__item {
-    top: 160px;
-  }
-
-  .statistics__item span {
+  .statistics span {
     line-height: 40px;
   }
 
   .likes {
-    padding-left: 135px;
+    padding-left: 110px;
   }
 }
 
@@ -352,16 +335,12 @@
     width: 340px;
   }
 
-  .statistics__item {
-    top: 140px;
-  }
-
-  .statistics__item span {
+  .statistics span {
     font-size: 14px;
 }
 
   .likes {
-    padding-left: 115px;
+    padding-left: 90px;
   }
 }
 
@@ -373,10 +352,6 @@
 
   .header-content__item:nth-child(2) {
     width: 300px;
-  }
-
-  .statistics__item {
-    top: 115px;
   }
 
   .likes {

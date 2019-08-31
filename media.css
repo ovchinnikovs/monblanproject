@@ -14,8 +14,16 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .box-statistics {
+    visibility: visible;
+  }
+
   .statistics__item {
-    top: 100px;
+    top: 85px;
+  }
+
+  .statistics__item span {
+    font-size: 14px;
   }
 
   .likes {
@@ -70,6 +78,7 @@
   .stats-mobile__item {
     width: 100%;
     font-size: 13px;
+    line-height: 15px;
   }
 
   .stats-mobile__item span {
@@ -98,7 +107,12 @@
   }
 
   .statistics__item {
-    top: 90px;
+    top: 100px;
+  }
+
+  .statistics__item span {
+    font-size: 12px;
+    line-height: 25px;
   }
 
   .likes {
@@ -110,13 +124,19 @@
 
   .header-content__item:first-child {
     margin: 0 27px;
-}
+  }
 
   .header-content__item:nth-child(2) {
     margin: 18px 10px 0;
   }
 
+  .statistics__item {
+    top: 90px;
+  }
 
+  .statistics__item span {
+    line-height: 24px;
+  }
 }
 
 @media only screen and (max-width: 630px) {
@@ -180,8 +200,12 @@
   }
 
   .statistics__item {
-    top: 120px;
+    top: 105px;
     padding: 0 10px;
+  }
+
+  .statistics__item span {
+    line-height: 33px;
   }
 
   .likes {
@@ -191,12 +215,12 @@
 
 @media only screen and (max-width: 540px) {
 
-.header-content__item:first-child {
+  .header-content__item:first-child {
     margin: 0px 36px;
   }
 
   .statistics__item {
-    top: 100px;
+    top: 90px;
   }
 
   .likes {
@@ -223,7 +247,12 @@
   }
 
   .statistics__item {
-    top: 200px;
+    top: 185px;
+  }
+
+  .statistics__item span {
+    line-height: 37px;
+    font-size: 16px;
   }
 
   .likes {
@@ -254,7 +283,7 @@
   }
 
   .statistics__item {
-    top: 180px;
+    top: 170px;
   }
 
   .likes {
@@ -305,7 +334,11 @@
   }
 
   .statistics__item {
-    top: 170px;
+    top: 160px;
+  }
+
+  .statistics__item span {
+    line-height: 40px;
   }
 
   .likes {
@@ -313,15 +346,19 @@
   }
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 375px) {
 
   .header-content__item:nth-child(2) {
     width: 340px;
   }
 
   .statistics__item {
-    top: 150px;
+    top: 140px;
   }
+
+  .statistics__item span {
+    font-size: 14px;
+}
 
   .likes {
     padding-left: 115px;
@@ -339,7 +376,7 @@
   }
 
   .statistics__item {
-    top: 135px;
+    top: 115px;
   }
 
   .likes {

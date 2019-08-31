@@ -25,6 +25,10 @@
   .likes {
     padding-left: 35px;
   }
+
+  .text-bottom {
+    font-size: 11px;
+  }
 }
 
 @media only screen and (max-width: 764px) {
@@ -249,6 +253,10 @@
   .likes {
     padding-left: 160px;
   }
+
+  .text-bottom {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 445px) {
@@ -341,6 +349,10 @@
 
   .likes {
     padding-left: 90px;
+  }
+
+  .text-bottom {
+    font-size: 12px;
   }
 }
 

@@ -142,7 +142,7 @@ header {
 .main-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+  grid-gap: 20px;
   margin-top: 75px;
 }
 
@@ -187,12 +187,16 @@ header {
 
 .statistics__item {
   position: absolute;
-  top: 120px;
+  top: 110px;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0 10px;
+}
+
+.statistics__item span {
+  line-height: 35px;
 }
 
 .likes {
